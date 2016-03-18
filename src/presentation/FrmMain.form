@@ -133,6 +133,9 @@
       </Properties>
     </Component>
     <Component class="java.awt.List" name="lstPart">
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="lstPartItemStateChanged"/>
+      </Events>
     </Component>
     <Component class="java.awt.Label" name="lblPartCourant">
       <Properties>
@@ -172,6 +175,9 @@
       </Properties>
     </Component>
     <Component class="java.awt.List" name="lstActChoisies">
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="lstActChoisiesItemStateChanged"/>
+      </Events>
     </Component>
     <Component class="java.awt.Label" name="lblActProposees">
       <Properties>
@@ -182,16 +188,27 @@
       </Properties>
     </Component>
     <Component class="java.awt.List" name="lstActProposees">
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="lstActProposeesItemStateChanged"/>
+      </Events>
     </Component>
     <Component class="java.awt.Button" name="btnSupprimer">
       <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
         <Property name="label" type="java.lang.String" value="Supprimer l&apos;activit&#xe9;"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSupprimerActionPerformed"/>
+      </Events>
     </Component>
     <Component class="java.awt.Button" name="btnAjouter">
       <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
         <Property name="label" type="java.lang.String" value="Ajouter l&apos;activit&#xe9;"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAjouterActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
