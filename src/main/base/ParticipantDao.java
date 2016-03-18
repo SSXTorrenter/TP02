@@ -1,7 +1,7 @@
-package base;
+package main.base;
 
-import domaine.Activite;
-import domaine.Participant;
+import main.domaine.Activite;
+import main.domaine.Participant;
 import java.util.*;
 import java.sql.Connection;     // connexion à la BD
 import java.sql.Statement;      // interrogation de la base de données
@@ -23,7 +23,7 @@ public class ParticipantDao {
         try{
             Connection con = ConnexionBase.get();
             Statement stmt = con.createStatement();
-            ResultSet rs = stmt.executeQuery("SELECT * FROM Participant;");
+            ResultSet rs = stmt.executeQuery("SELECT * FROM Participant ORDER BY Nom,Prenom;");
             while (rs.next()) {
                 Participant participant = new Participant(rs.getInt("NoPart"), rs.getString("Nom"), rs.getString("Prenom"), rs.getString("Telephone"));
                 liste.add(participant);

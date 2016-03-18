@@ -1,7 +1,7 @@
-package base;
+package main.base;
 
 import java.util.*;
-import domaine.*;
+import main.domaine.*;
 import java.sql.Connection;     // connexion à la BD
 import java.sql.Statement;      // interrogation de la base de données
 import java.sql.ResultSet;      // le résultat de la requête

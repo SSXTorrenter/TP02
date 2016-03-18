@@ -1,4 +1,4 @@
-package presentation;
+package main.presentation;
 
 /**
  * 634.1 Programmation - TP P02

@@ -1,8 +1,8 @@
-package metier;
+package main.metier;
 
 import java.util.*;
-import base.ParticipantDao;
-import domaine.Participant;
+import main.base.ParticipantDao;
+import main.domaine.Participant;
 
 /**
  * 634.1 Programmation - TP P02
