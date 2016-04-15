@@ -1,7 +1,7 @@
-package main.metier;
+package metier;
 
-import main.base.ActiviteDao;
-import main.domaine.*;
+import base.ActiviteDao;
+import domaine.*;
 import java.util.*;
 
 /**

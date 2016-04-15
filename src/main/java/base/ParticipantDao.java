@@ -1,7 +1,7 @@
-package main.base;
+package base;
 
-import main.domaine.Activite;
-import main.domaine.Participant;
+import domaine.Activite;
+import domaine.Participant;
 import java.util.*;
 import java.sql.Connection;     // connexion à la BD
 import java.sql.Statement;      // interrogation de la base de données

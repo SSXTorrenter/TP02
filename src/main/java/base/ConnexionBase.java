@@ -1,6 +1,6 @@
-package main.base;
+package base;
 
-import main.base.mysql.Outils;
+import base.mysql.Outils;
 import java.sql.Connection;
 import java.sql.SQLException;
 

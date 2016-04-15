@@ -1,4 +1,4 @@
-package main.domaine;
+package domaine;
 
 /**
  * 634.1 Programmation - TP P02

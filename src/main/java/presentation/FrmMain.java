@@ -1,7 +1,7 @@
-package main.presentation;
+package presentation;
 
-import main.metier.*;
-import main.domaine.*;
+import metier.*;
+import domaine.*;
 
 /**
  * 634.1 Programmation - TP P02
